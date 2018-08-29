@@ -64,7 +64,9 @@ $(document).ready(function() {
 				x = parseInt(id[id.length-2]);
 				y = parseInt(id[id.length-1]);
 				$("button").removeClass("selected");
+				$("button").removeClass("mainSelected")
 				var tempArray = JSON.parse(JSON.stringify(A));
+				$("#btn"+x+y).addClass("mainSelected")
 				findElements(x, y, tempArray);
 			});
 	})

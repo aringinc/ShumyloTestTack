@@ -10,6 +10,10 @@ button:hover {
 button.selected {
 	background: #FFFFE0;
 }
+button.mainSelected {
+	border: 2px solid red;
+}
+
 #field{
 	background: #778899;
 	display: inline-block;
